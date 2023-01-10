@@ -1,0 +1,121 @@
+<!DOCTYPE html> <!-- BAGIAN YANG HARUS SELALU ADA DI HTML -->
+
+<head> <!-- STRUKTUR PERTAMA ADALAH HEAD-->
+    <meta charset="UTF-8">
+    <title>Remzy's Homepage</title>
+</head>
+
+<body> <!-- STRUKTUR KEDUA ADALAH BODY-->
+    <!--  INI DIBUAT TABEL SUPAYA GAMBAR DI KIRI DAN NAMA SERTA PARAGRAF DI KANAN-->
+    <table cellspacing="20"> <!-- cellspacing UNTUK MENGATUR JARAK PADA SETIAP KOLOM-->
+        <tr>
+            <td>
+                <img src="remzy.png" alt="Remzy's Profile Picture" width="200" height="200"> <!-- INI UNTUK SISIPKAN GAMBAR -->
+            </td>
+            <td>
+                <!-- p UNTUK PENULISAN PARAGRAPH, em UNTUK CETEK MIRING, DAN strong UNTUK PENEKANAN (HURUF TEBAL).-->
+                <h1> Muhammad Remzy Syah Ramazhan </h1>
+                <p><em> <strong>Departement of Mathematics</strong> Universitas Indonesia</em></p>
+                <p>I am bachelor in Mathematics and currently, i am taking master of mathematics</p>
+            </td>
+        </tr>
+    </table>
+
+    <hr> <!-- hr ADALAH COMMAND UNTUK MENAMBAHKAN GARIS HORIZONTAL-->
+    <h2> Skills </h2>
+    <ul> <!-- INI UNTUK BIKIN POIN-POIN YANG TIDAK TERURUT. HANYA TITIK ATAU STRIP -->
+        <li>Python Programming</li>
+        <li>Web Development using Flask</li>
+        <li>Frontend Using HTML</li>
+    </ul>
+
+    <h2> Skills in table </h2> <!-- Nested Table (tabel di dalam tabel)-->
+    <table>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            Python Programming
+                        </td>
+                        <td>
+                            ⭐⭐⭐⭐⭐
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mathematics
+                        </td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            Music
+                        </td>
+                        <td>
+                            ⭐⭐⭐
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Dance
+                        </td>
+                        <td>
+                            ⭐
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <h2>Work Experience</h2>
+
+    <table> <!-- AWAL STRUKTUR TABEL-->
+        <thead> <!-- BAGIAN HEADER TABEL-->
+            <th> <!-- INI KOLOM PERTAMA HEADER-->
+                Year
+            </th>
+            <th> <!-- INI KOLOM KEDUA HEADER -->
+                Work
+            </th>
+        </thead>
+        <tbody> <!--BAGIAN BODY TABEL -->
+            <tr> <!-- INI BARIS PERTAMA BODY-->
+                <td> 2019-2022 </td> <!-- INI KOLOM PERTAMA BARIS 1-->
+                <td>Laboratory Assistant</td>  <!-- INI KOLOM KEDUA BARIS 1-->
+            </tr>
+            <tr> <!-- INI BARIS KEDUA BODY-->
+                <td>2022</td>
+                <td>Lecturer Assistant</td>
+            </tr>
+            <tr> <!-- INI BARIS KETIGA BODY-->
+                <td> 2021-2022 </td>
+                <td>Kemendikbud</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>PT Inovasi Teknologi Cerdas</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+        
+    </table> <!-- AKHIR STRUKTUR TABEL-->
+    
+    <h2>Hobbies</h2>
+    <ol type="i"> <!-- INI ADALAH POIN-POIN YANG TERURUT. BIASANYA ADA ANGKANYA. CONTOH DI KIRI ROMAWI-->
+        <li>chess</li>
+        <li>badminton</li>
+    </ol>
+    <hr>
+    <h2>Contact</h2>
+    <a href="https://github.com/Remzyramadhan"> Github </a> <br> <!-- INI UNTUK SISIPKAN LINK-->
+    <a href="mycontact.html"> Contact Me </a>
+</body>
+</html>
